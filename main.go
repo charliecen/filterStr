@@ -7,7 +7,6 @@ import (
 )
 
 func main()  {
-	fmt.Println("welcome use filter string ...")
 	var t string
 	var name string
 	var length int
