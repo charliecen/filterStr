@@ -1,4 +1,4 @@
-package src
+package filterStr
 
 import (
 	"bufio"
@@ -11,8 +11,8 @@ import (
 
 type filterStr struct {}
 
-var FilterStr = new(filterStr)
-var sensitivityConfigInit []string = FilterStr.sensitivityConfigInit("./config/sensitivity.txt")
+var Filter = new(filterStr)
+var sensitivityConfigInit []string = Filter.sensitivityConfigInit("./config/sensitivity.txt")
 
 func (s *filterStr) FilStr(name string) error {
 	wf := wordsfilter.New()

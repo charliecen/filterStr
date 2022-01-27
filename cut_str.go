@@ -1,4 +1,4 @@
-package src
+package filterStr
 
 import (
 	"regexp"
@@ -8,7 +8,7 @@ import (
 
 type cutStr struct {}
 
-var CutStr = new(cutStr)
+var Cut = new(cutStr)
 
 func (c *cutStr) CutString(name string, length int) string {
 	// 去除前后空格
