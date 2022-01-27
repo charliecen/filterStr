@@ -1,4 +1,4 @@
-module filterStr
+module github.com/charliecen/filterStr
 
 go 1.16
 
