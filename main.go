@@ -1,9 +1,9 @@
 package main
 
 import (
-	"filterStr/src"
 	"flag"
 	"fmt"
+	"github.com/charliecen/filterStr/src"
 )
 
 func main()  {
